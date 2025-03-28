@@ -10,45 +10,50 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="relative text-[#f5f5f5] p-8 bg-no-repeat bg-cover bg-center bg-fixed bg-[url('assets/images/background-mobile.png')] md:bg-[url('assets/images/background-tablet.png')] lg:bg-[url('assets/images/background-desktop.png')] min-h-screen">
+  <div class="absolute inset-0 bg-no-repeat bg-center bg-[url('assets/images/pattern-lines.svg')]"></div>
 
-  <!-- Form starts -->
-   <div class="top-heading text-[18px] text-center font-bold p-7">Coding Conf</div>
-  <div class="header-container pl-5 pr-5 pb-8 text-center">
-    <div class="main-header text-[27px] font-bold pb-5">Your Journey to Coding Conf 2025 Starts Here!</div>
-    <div class="sub-header">Secure your spot at next year's biggest coding conference.</div>
-  </div>
+    <!-- Form starts -->
+    <form>
+      <div class="flex justify-center p-2"><img src="assets/images/logo-full.svg" width="165px"></div>
+      <div class="header-container pt-6 pb-10 text-center">
+        <div class="main-header text-[27px] font-bold pb-5">Your Journey to Coding Conf 2025 Starts Here!</div>
+        <div class="sub-header text-[20px] text-[#d1cdcd]">Secure your spot at next year's biggest coding conference.</div>
+      </div>
 
-  Upload Avatar
-  Drag and drop or click to upload
-  Upload your photo (JPG or PNG, max size: 500KB).
+      <h1 class="text-[20px] mb-5">Upload Avatar</h1>
+      <div class="image-upload-container mb-2.5 border-2 border border-[#d1cdcd] border-dashed rounded-xl p-2.5 h-28">
+        <p class="">Drag and drop or click to upload</p>
+      </div>
+      <div class="mb-5 text-[10px]">Upload your photo (JPG or PNG, max size: 500KB).</div>
 
-  Full Name
+      Full Name
 
-  Email Address
-  example@email.com
+      Email Address
+      example@email.com
 
-  GitHub Username
-  @yourusername
+      GitHub Username
+      @yourusername
 
-  Generate My Ticket
+      Generate My Ticket
+    </form>
+    <!-- Form ends -->
 
-  <!-- Form ends -->
+    <!-- Generated tickets starts -->
 
-  <!-- Generated tickets starts -->
+    Congrats, <!-- Full Name -->! Your ticket is ready.
 
-  Congrats, <!-- Full Name -->! Your ticket is ready.
+    We've emailed your ticket to <!-- Email Address --> and will send updates in the run up to the event.
 
-  We've emailed your ticket to <!-- Email Address --> and will send updates in the run up to the event.
+    Coding Conf
+    Jan 31, 2025 / Austin, TX
 
-  Coding Conf
-  Jan 31, 2025 / Austin, TX
-
-  <!-- Generated tickets ends -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <!-- Generated tickets ends -->
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
 </body>
 </html>

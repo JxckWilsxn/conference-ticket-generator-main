@@ -12,8 +12,8 @@ The designs were created to the following widths:
 ## Colors
 
 - Neutral 0: hsl(0, 0%, 100%)
-- Neutral 300: hsl(252, 6%, 83%)
-- Neutral 500: hsl(245, 15%, 58%)
+- Neutral 300:hsl(252, 5.70%, 82.90%)
+- Neutral 500:hsl(246, 15.00%, 58.00%)
 - Neutral 700: hsl(245, 19%, 35%)
 - Neutral 900: hsl(248, 70%, 10%)
 

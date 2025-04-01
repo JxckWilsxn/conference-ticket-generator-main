@@ -56,7 +56,7 @@ Users should be able to:
 - Tailwind CSS
 - Mobile-first workflow
   
--[Tailwind](https://tailwindcss.com/) - CSS framework
+- [Tailwind](https://tailwindcss.com/) - CSS framework
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 

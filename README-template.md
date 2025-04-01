@@ -55,7 +55,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - Tailwind CSS
 - Mobile-first workflow
-- React JS
 -[Tailwind](https://tailwindcss.com/)
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework

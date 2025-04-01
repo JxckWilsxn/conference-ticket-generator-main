@@ -101,7 +101,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Jack Wilson](https://github.com/JxckWilsxn)
+- GitHub - [Jack Wilson](https://github.com/JxckWilsxn)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JxckWilsxn)
 
 <!--

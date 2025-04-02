@@ -55,8 +55,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - Tailwind CSS
 - Mobile-first workflow
-- React JS
--[Tailwind](https://tailwindcss.com/)
+  
+- [Tailwind](https://tailwindcss.com/) - CSS framework
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 
@@ -101,8 +101,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Jack Wilson](https://github.com/JxckWilsxn)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JxckWilsxn)
+- GitHub - [@JxckWilsxn](https://github.com/JxckWilsxn)
+- Frontend Mentor - [@JxckWilsxn](https://www.frontendmentor.io/profile/JxckWilsxn)
 
 <!--
 ## Acknowledgments

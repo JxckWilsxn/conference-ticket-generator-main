@@ -17,10 +17,10 @@ The designs were created to the following widths:
 - Neutral 700: #4b486a
 - Neutral 900: #0c082b
 
-- Orange 500: hsl(7, 88%, 67%)
+- Orange 500: #f57261
 - Orange 700: hsl(7, 71%, 60%)
 
-- Gradient (text): hsl(7, 86%, 67%) to hsl(0, 0%, 100%)
+- Gradient (text): #f37362 to #ffffff
 
 ## Typography
 

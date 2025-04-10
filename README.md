@@ -18,7 +18,7 @@ This is a solution to the [Conference ticket generator challenge on Frontend Men
 
 ## Overview
 
-In this challenge, I am required to code a ticket generator while following the designs provided for both Desktop and Mobile interfaces. I plan to use both Tailwind CSS and React JS to practice both frameworks. This project is currently in progress.
+In this challenge, I am required to code a ticket generator while following the designs provided for both Desktop and Mobile interfaces. I used Tailwind CSS and JavaScript to complete this challenge in order to practice my skills in both areas.
 
 ### The challenge
 
@@ -37,9 +37,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](image.png)
 
-![Mobile](image-1.png)
+![Desktop-1](image-9.png)
+![Desktop-2](image-7.png)
+![Desktop-3](image-8.png)
+
+![Mobile-1](image-4.png)
+![Mobile-2](image-5.png)
+![Mobile-3](image-6.png)
 
 <!--
 ### Links

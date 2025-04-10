@@ -45,14 +45,11 @@ Users should be able to:
 ![Mobile-2](image-5.png)
 ![Mobile-3](image-6.png)
 
-<!--
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
--->
-<!-- ## My process -->
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://conference-ticket-generator-main-zeta.vercel.app/)
 
 
 ### Built with

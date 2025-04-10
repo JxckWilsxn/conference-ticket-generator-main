@@ -7,14 +7,13 @@ This is a solution to the [Conference ticket generator challenge on Frontend Men
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
- <!-- - [Links](#links) -->
-<!-- - [My process](#my-process) -->
+  <!-- - [Links](#links) -->
+  <!-- - [My process](#my-process) -->
   - [Built with](#built-with)
-  <!-- - [What I learned](#what-i-learned) -->
-  <!-- - [Continued development](#continued-development) -->
-  <!-- - [Useful resources](#useful-resources) -->
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
   - [Author](#author)
-<!-- - [Acknowledgments](#acknowledgments) -->
+
 
 ## Overview
 
@@ -35,8 +34,8 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
 
+### Screenshot
 
 ![Desktop-1](image-9.png)
 ![Desktop-2](image-7.png)
@@ -55,6 +54,7 @@ Users should be able to:
 -->
 <!-- ## My process -->
 
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -65,54 +65,45 @@ Users should be able to:
 - [Tailwind](https://tailwindcss.com/) - CSS framework
 
 
-<!--
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+During this project, I learnt more about the operations of Tailwind CSS and got a better grasp of the documentation. I also learnt how to code a form correctly as well as how to create a file uploader using the input tag with the type "file" and the "change" event listener. This helped me also learn how to use JavaScript to detect the file type and size.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<input id="file-uploader" class="absolute cursor-pointer opacity-0 h-full w-full top-0 left-0" type="file" accept="image/*"/>
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+```js (shortened version)
+fileUploader.addEventListener('change', upload = () => {
+    const image = fileUploader.files[0];
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+    if (!image) return;
 
-### Continued development
+    if (!image.type.includes('image')) {
+        imageVal.innerHTML = '';
+        imageVal.classList.remove('text-[#8784a4]')
+        imageVal.classList.add('text-[#e16151]');
+        imageVal.innerHTML = `<img src="assets/images/icon-info.svg" class="mr-2" alt="info icon">Please upload a valid image file.`
+        return;
+    }
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+    if (image.size > 500 * 1024) {
+        imageVal.innerHTML = '';
+        imageVal.classList.remove('text-[#8784a4]')
+        imageVal.classList.add('text-[#e16151]');
+        imageVal.innerHTML = `<img src="assets/images/icon-info.svg" class="mr-2" alt="info icon">File too large. Please upload a photo under 500KB.`
+        return;
+    }
+});
+```
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tailwind CSS Documentation](https://tailwindcss.com/) - This helped me whenever I got stuck on how to implement a Tailwind version of a standard CSS style.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
--->
 
 ## Author
 
 - GitHub - [@JxckWilsxn](https://github.com/JxckWilsxn)
 - Frontend Mentor - [@JxckWilsxn](https://www.frontendmentor.io/profile/JxckWilsxn)
-
-<!--
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
--->
